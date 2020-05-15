@@ -37,7 +37,7 @@ nav ul li {
   cursor: pointer;
 }
 
-.nav-link:hover {
+.nav-link :hover {
   color: orange;
 }
 
