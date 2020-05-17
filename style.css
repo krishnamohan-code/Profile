@@ -37,8 +37,9 @@ nav ul li {
   cursor: pointer;
 }
 
-.nav-link :hover {
-  color: orange;
+
+a:hover,.link-button:hover{
+color: orange;
 }
 
 #home {
@@ -93,6 +94,7 @@ h4 {
   padding: 10px;
   border-radius: 5%;
   border-color: black;
+  cursor: pointer;
 }
 
 #bio article *{
