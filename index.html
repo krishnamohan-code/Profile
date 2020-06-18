@@ -8,34 +8,37 @@
   <title>KrishnaMohan</title>
 </head>
 
-<body>
+<body style="overflow: auto;">
   <nav>
-    <ul>
-      <li class="logo-text">KrishnaMohan</li>
-      <li>
-        <ul>
-          <li><a href="#home" class="nav-link">HOME</a></li>
-          <li><a href="#bio" class="nav-link">BIO</a></li>
-          <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
-          <li><a href="#skills" class="nav-link">SKILLS</a></li>
-          <li><a href="#contact" class=" link-button">CONTACT</a></li>
+    
+      <div id="logo">KrishnaMohan</div>
+      
+        <ul class="nav-links-container ">
+          <li><a href="#home" >HOME</a></li>
+          <li><a href="#bio" >BIO</a></li>
+          <li><a href="#portfolio" >PORTFOLIO</a></li>
+          <li><a href="#skills" >SKILLS</a></li>
+          <li><a href="#contact" #c="c" class=" link-button">CONTACT</a></li>
         </ul>
-      </li>
-    </ul>
+        <!-- <a href="#contact" class=" link-button">CONTACT</a> -->
+      <div class="burger">
+      <div id="line1"></div>
+      <div id="line2"></div>
+      <div id="line3"></div>
+    </div>
   </nav>
-  <header id="home">
+  <header id="home" style="font-size: 1vw;">
     <div>
       <p>I BELIEVE IN</p>
       <h1>EAT (); SLEEP (); CODE (); REPEAT();</h1>
     </div>
   </header>
   
-  <section id="bio">
-    <img src="photo.jpg"
-      alt="Internet error" />
-    <article>
+  <section id="bio" >
+    <img  src="photo.jpg" alt="Internet error" />
+    <article >
       <h2>KrishnaMohan</h2>
-      <p>
+      <p style="font-size:auto;">
         I am a passionate Engineer with a degree in electronics and
         communication engineeing.My very first Experience with code was at the
         time.When I Started my own blog .My struggle to customize the blog
@@ -60,7 +63,7 @@
     <h3>PORTFOLIO</h3>
     <p>Some of my best Projects so far</p>
     <hr />
-    <div>
+    <div style="height:100%;">
       <article>
         <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="Internet not found" />
         <h4>PERSONAL BLOG</h4>
@@ -73,8 +76,8 @@
       </article>
       <article>
         <img src="https://i1.faceprep.in/ProGrad/Coding-icon.svg" alt="Internet not found" />
-        <h4>TIME TABLE GENERATOR</h4>
-        <p>A Web application for automatic time table generation</p>
+        <h4>Digital Library Management System</h4>
+        <p>Back-End project by using Java</p>
       </article>
     </div>
   </section>
@@ -119,5 +122,5 @@
     <input type="button" class="link-button" value="Send Message" />
   </footer>
 </body>
-
+<script src="app.js"></script>
 </html>
