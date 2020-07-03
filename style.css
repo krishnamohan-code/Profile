@@ -106,9 +106,6 @@ transform: rotate(45deg) translateX(5px);
     opacity: 1;
   }
 }
-a:hover:hover{
-color: orange;
-}
 
 #home {
   margin-bottom: 10px;
@@ -123,7 +120,6 @@ color: orange;
 header div p {
   font-size: 2.5em;
   font-weight: 200;
-  
 }
 
 h1,
@@ -164,7 +160,9 @@ h4 {
   border-color: black;
   cursor: pointer;
 }
-
+nav ul li  :hover{
+color: orange;
+}
 #bio article *{
   margin: 10px;
 }
@@ -180,7 +178,9 @@ h4 {
   border-radius: 50%;
   margin: 100px;
 }
-
+.break{
+  display: block;
+}
  p {
   font-size: 1.5em;
 }
@@ -225,7 +225,6 @@ hr{
   background:url(https://i1.faceprep.in/ProGrad/portfolio-background.svg);
   background-color: black;
   color: white;
-  /* padding: 50px; */
 }
 #portfolio div {
   display: flex;
@@ -277,7 +276,4 @@ hr{
  }
  ::-webkit-progress-value{
    background-color: orangered;
- }
- .break{
-   display: block;
  }
