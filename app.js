@@ -1,3 +1,6 @@
+var display=window.innerWidth;
+console.log(display);
+
 const $burger= document.querySelector(".burger");
 const $navLinksContainer =document.querySelector(".nav-links-container");
 const $navLinks=document.querySelectorAll(".nav-links-container li");
