@@ -247,13 +247,13 @@ hr{
   padding: 0 10px;
 }
 
-.input {
+/* .input {
   line-height: 2em;
   width: 350px;
   border-radius: 3px;
   border-color: black;
   margin: 10px 0;
-}
+} */
 
 #contact {
   display: flex;
@@ -277,3 +277,26 @@ hr{
  ::-webkit-progress-value{
    background-color: orangered;
  }
+ #mail
+ {
+    margin-top: 1em;
+   text-decoration: none;
+   color: white;
+ }
+ #mail,#phonenumber
+ {
+  font-size: 25px;
+ }
+ #phonenumber:hover,#mail:hover
+ {
+   color: black;
+   background: orangered;
+   padding: 0.3em;
+ }
+ #phonenumber
+ {
+   margin-top: 1em;
+   cursor: pointer;
+   
+ }
+ 
