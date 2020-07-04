@@ -247,14 +247,6 @@ hr{
   padding: 0 10px;
 }
 
-/* .input {
-  line-height: 2em;
-  width: 350px;
-  border-radius: 3px;
-  border-color: black;
-  margin: 10px 0;
-} */
-
 #contact {
   display: flex;
   flex-direction: column;
@@ -289,7 +281,7 @@ hr{
  }
  #phonenumber:hover,#mail:hover
  {
-   color: black;
+   color:white;
    background: orangered;
    padding: 0.3em;
  }
@@ -297,6 +289,9 @@ hr{
  {
    margin-top: 1em;
    cursor: pointer;
-   
  }
- 
+ #social img
+ {
+   height: 50px;
+   width: 50px;
+ }
