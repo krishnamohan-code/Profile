@@ -8,15 +8,16 @@ const $navLinks=document.querySelectorAll(".nav-links-container li");
 $burger.onclick= () =>{
     $navLinksContainer.classList.toggle("nav-clicked");
     $burger.classList.toggle("burger-clicked");
+    // $burger.style.hover="blue";
        $navLinks.forEach((link,index)=>{
            if(link.style.animation)
            {
                link.style.animation="";
-
            }
            else
            {
             link.style.animation=`navLinksAnimation 0.2s ease forwards ${index/5 +0.5}s`;
+            
             }
        });
 };

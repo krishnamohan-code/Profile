@@ -44,8 +44,8 @@ nav{
 .burger div
 {
   background-color: black;
-  height: 3px;
-  width: 25px;
+  height: 5px;
+  width: 35px;
   margin: 5px;
   border-radius: 30%;
   transition: all 0.5s ease;
@@ -53,29 +53,36 @@ nav{
 .burger
 {
   display: none;
-
+/* overflow: hidden; */
 }
 @media only screen and (max-width:620px)
 {
     
   .burger{
     display: block;
+    cursor: pointer;
   }
+  .burger div:hover {
+    background-color: blue;
+  }
+
  .nav-links-container
    {  
   position: absolute;
   right: 0;
   top: 8vh;
-   height: 92vh;
-   background-color: #edeef0;
-   color: black;
+   height: 80vh;
+   /* background-color: #edeef0; */
+   background:whitesmoke;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: space-around;
-   width: 40%;
+   width: 50%;
+   font-size:2.2em;
    transform: translateX(100%) ;
      }
+     
 .nav-links-container li {
   opacity: 0%;
 }
@@ -238,8 +245,9 @@ hr{
 #portfolio div article {
   background: white;
   color: black;
-  height: 200px;
-  width: 250px;
+  /* height: 200px; */
+  height: 35vh;
+  width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
