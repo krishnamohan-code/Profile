@@ -245,9 +245,10 @@ hr{
 #portfolio div article {
   background: white;
   color: black;
-  /* height: 200px; */
-  height: 35vh;
+  height: 200px;
   width: 20vw;
+  /* width: 100%;*/
+  /* width: 250px; */
   display: flex;
   flex-direction: column;
   align-items: center;
