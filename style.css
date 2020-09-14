@@ -290,16 +290,16 @@ hr{
  {
   font-size: 25px;
  }
- #phonenumber:hover,#mail:hover
+ #mail:hover
  {
-   color:white;
-   background: orangered;
-   padding: 0.3em;
+   color:orangered;
+   /* background: orangered; */
+   /* padding: 0.3em; */
  }
  #phonenumber
  {
    margin-top: 1em;
-   cursor: pointer;
+   /* cursor: pointer; */
  }
  #social img
  {
