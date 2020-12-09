@@ -184,7 +184,8 @@ color: orange;
   /* width: 250px; */
   height: 30vh;
   /* width: 15vw; */
-  border-radius: 50%;
+  border-radius: 6%;
+  /* width:350px; */
   margin: 100px;
 }
 .break{
