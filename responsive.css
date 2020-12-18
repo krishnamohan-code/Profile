@@ -1,4 +1,7 @@
 
+*{
+    /* overflow: auto; */
+}
 @media only screen and (max-width:620px)
 {
     #logo
@@ -11,7 +14,7 @@
     }
     #bio div img{
         display: grid;
-        margin:0 0 0 150px;
+        margin:0 0 0 60px;
     }
     #bio
     {
