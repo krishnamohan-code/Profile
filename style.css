@@ -117,6 +117,7 @@ transform: rotate(45deg) translateX(5px);
 #home {
   margin-bottom: 10px;
   background: black;
+  /* background-image: url(assets/code.jfif) ; */
   display: flex;
   justify-content: center;
   align-items: center;
